@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="src/main/res/drawable/bg_fab.xml" value="0.1" />
         <entry key="src/main/res/drawable/bg_img_add.xml" value="0.2085" />
+        <entry key="src/main/res/drawable/rv_bag.xml" value="0.2085" />
         <entry key="src/main/res/layout/activity_write.xml" value="0.22704315185546875" />
+        <entry key="src/main/res/layout/fragment_comment.xml" value="0.1" />
+        <entry key="src/main/res/layout/item_add_rv.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>

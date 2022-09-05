@@ -60,7 +60,6 @@
         app:layout_constraintLeft_toLeftOf="@id/line_left"
         app:layout_constraintRight_toRightOf="@id/line_right"
         app:layout_constraintTop_toBottomOf="@id/tv_title"
-        android:hint="오늘자 뉴트리아"
         android:textSize="12sp"
         android:textColorHint="@color/black"
         android:textColor="@color/black" />
@@ -86,7 +85,6 @@
         app:layout_constraintTop_toBottomOf="@id/tv_content"
         android:lines="7"
         android:inputType="textMultiLine"
-        android:hint="오늘자 뉴트리아"
         android:textSize="12sp"
         android:textColorHint="@color/black"
         android:textColor="@color/black" />

@@ -11,7 +11,6 @@ import com.example.eco3s.databinding.FragmentCommentBinding
 
 class CommentFragment : Fragment() {
 
-    lateinit var binding : FragmentCommentBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,16 +23,14 @@ class CommentFragment : Fragment() {
     ): View? {
 
         inflater.inflate(R.layout.fragment_comment, container, false)
-        binding = FragmentCommentBinding.inflate(layoutInflater)
+        val binding = FragmentCommentBinding.inflate(inflater, container, false)
         binding.fabAdd.setOnClickListener {
-            activity?.let {
-                val intent = Intent(context, WriteActivity::class.java)
-                startActivity(intent)
-            }
+            val intent = Intent(requireContext(), WriteActivity::class.java)
+            startActivity(intent)
         }
 
 
-        return inflater.inflate(R.layout.fragment_comment, container, false)
+        return binding.root
     }
 
 }
