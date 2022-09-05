@@ -10,6 +10,12 @@ android {
         enabled true
     }
 
+    task wrapper(type: Wrapper) {
+        gradleVersion = '7.0'
+    }
+
+    tasks.register("prepareKotlinBuildScriptModel"){}
+
     defaultConfig {
         applicationId "com.example.eco3s"
         minSdk 21

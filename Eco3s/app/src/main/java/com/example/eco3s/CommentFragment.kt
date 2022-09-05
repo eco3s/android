@@ -1,5 +1,6 @@
 package com.example.eco3s
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -24,6 +25,12 @@ class CommentFragment : Fragment() {
 
         inflater.inflate(R.layout.fragment_comment, container, false)
         binding = FragmentCommentBinding.inflate(layoutInflater)
+        binding.fabAdd.setOnClickListener {
+            activity?.let {
+                val intent = Intent(context, WriteActivity::class.java)
+                startActivity(intent)
+            }
+        }
 
 
         return inflater.inflate(R.layout.fragment_comment, container, false)
