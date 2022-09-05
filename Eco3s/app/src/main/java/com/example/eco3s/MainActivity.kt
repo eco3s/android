@@ -3,7 +3,6 @@ package com.example.eco3s
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.eco3s.databinding.ActivityMainBinding
-import com.example.sangtaegye.CommentFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

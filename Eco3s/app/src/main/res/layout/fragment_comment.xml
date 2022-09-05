@@ -11,11 +11,11 @@
         android:layout_height="match_parent" >
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btn_add"
+            android:id="@+id/fab_add"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/ic_baseline_add_24"
-            android:layout_gravity="center"
+            app:fabCustomSize="60dp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_margin="20dp" />
