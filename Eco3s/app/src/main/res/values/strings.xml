@@ -3,4 +3,19 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="turtle_B">TURTLE</string>
+
+    <string name="login">LOGIN</string>
+    <string name="id">ID</string>
+    <string name="pwd_B">PASSWORD</string>
+    <string name="sign_in">SIGH IN</string>
+    <string name="explain_signup">TURTLE 이 처음이신가요?</string>
+    <string name="kr_signup">회원가입</string>
+
+    <string name="sign_up">SIGN UP</string>
+    <string name="edit_name">이름을 입력하세요</string>
+    <string name="edit_id">아이디를 입력하세요</string>
+    <string name="edit_pwd">비밀번호를 입력하세요 (8~15자)</string>
+    <string name="check_pwd">비밀번호를 재입력해주세요</string>
+
+
 </resources>
