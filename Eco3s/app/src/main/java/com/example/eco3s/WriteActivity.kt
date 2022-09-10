@@ -1,5 +1,6 @@
 package com.example.eco3s
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.eco3s.databinding.ActivityWriteBinding
@@ -11,9 +12,15 @@ class WriteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        val contentList : List<Contents> = listOf(
-            Contents(binding.imgAdd.toString(), binding.etTitle.text.toString(), binding.etContent.text.toString())
+        val title : String = binding.etTitle.toString()
+        val contents : String = binding.etContent.toString()
 
-        )
+
+        binding.btnWrite.setOnClickListener {
+            intent.putExtra("Title", title)
+            intent.putExtra("Contents", contents)
+        }
     }
 }
+
+
