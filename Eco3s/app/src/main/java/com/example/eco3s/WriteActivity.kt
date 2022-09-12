@@ -14,11 +14,13 @@ class WriteActivity : AppCompatActivity() {
 
         val title : String = binding.etTitle.toString()
         val contents : String = binding.etContent.toString()
+        var contentsList = Contents(tv_title = title, tv_contents = contents, img_contents = null.toString())
 
 
         binding.btnWrite.setOnClickListener {
-            intent.putExtra("Title", title)
-            intent.putExtra("Contents", contents)
+            val intent = Intent(this, CommentFragment::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

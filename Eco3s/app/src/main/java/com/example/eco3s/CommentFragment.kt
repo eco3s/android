@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.eco3s.databinding.FragmentCommentBinding
 
 
@@ -28,9 +29,13 @@ class CommentFragment : Fragment() {
             val intent = Intent(requireContext(), WriteActivity::class.java)
             startActivity(intent)
         }
+        var adapter = ContentsAdapter()
+        binding.rvComment.adapter = adapter
 
 
         return binding.root
     }
+
+
 
 }
