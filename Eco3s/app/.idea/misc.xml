@@ -10,6 +10,8 @@
         <entry key="src/main/res/drawable/edit_profile.xml" value="0.2085" />
         <entry key="src/main/res/drawable/rv_bag.xml" value="0.2085" />
         <entry key="src/main/res/drawable/tv_background.xml" value="0.2085" />
+        <entry key="src/main/res/layout/activity_comment.xml" value="0.19610507246376813" />
+        <entry key="src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="src/main/res/layout/activity_profile.xml" value="0.19610507246376813" />
         <entry key="src/main/res/layout/activity_write.xml" value="0.22704315185546875" />
         <entry key="src/main/res/layout/fragment_comment.xml" value="0.1" />
