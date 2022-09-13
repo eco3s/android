@@ -1,8 +1,9 @@
-package com.example.eco3s
+package com.example.eco3s.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.eco3s.data.Contents
 import com.example.eco3s.databinding.ActivityWriteBinding
 
 class WriteActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.eco3s
+package com.example.eco3s.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

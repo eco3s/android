@@ -1,4 +1,4 @@
-package com.example.eco3s
+package com.example.eco3s.data
 
 data class Contents(
     val img_contents : String,

@@ -3,6 +3,7 @@ package com.example.eco3s
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.eco3s.data.Contents
 import com.example.eco3s.databinding.ItemAddRvBinding
 
 class ContentsAdapter : RecyclerView.Adapter<Holder>() {
