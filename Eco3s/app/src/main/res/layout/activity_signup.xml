@@ -6,4 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".SignupActivity">
 
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/signup_name_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:background="@null"
+        android:fontFamily="@font/nanumgothic_extrabold"
+        android:hint="@string/edit_name"
+        android:paddingStart="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_txt" />
+
+    <View
+        android:id="@+id/thin1"
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_name_et" />
+
+    <EditText
+        android:id="@+id/signup_id_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:fontFamily="@font/nanumgothic_extrabold"
+        android:hint="@string/edit_id"
+        android:paddingStart="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thin1" />
+
+    <View
+        android:id="@+id/thin2"
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_id_et" />
+
+    <EditText
+        android:id="@+id/signup_pw_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:fontFamily="@font/nanumgothic_extrabold"
+        android:hint="@string/edit_pwd"
+        android:paddingStart="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thin2" />
+
+    <View
+        android:id="@+id/thin3"
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_pw_et" />
+
+    <EditText
+        android:id="@+id/check_pw_et"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:fontFamily="@font/nanumgothic_extrabold"
+        android:hint="@string/check_pwd"
+        android:paddingStart="10dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thin3" />
+
+    <View
+        android:id="@+id/thin4"
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_pw_et" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thin4" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_custom"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
