@@ -29,8 +29,8 @@ class CommentFragment : Fragment() {
             val intent = Intent(requireContext(), WriteActivity::class.java)
             startActivity(intent)
         }
-        var adapter = ContentsAdapter()
-        binding.rvComment.adapter = adapter
+//        var adapter = ContentsAdapter()
+//        binding.rvComment.adapter = adapter
 
 
         return binding.root
