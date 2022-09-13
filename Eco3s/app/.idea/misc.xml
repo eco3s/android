@@ -7,7 +7,10 @@
         <entry key="src/main/res/drawable/bg_fab.xml" value="0.1" />
         <entry key="src/main/res/drawable/bg_img_add.xml" value="0.2085" />
         <entry key="src/main/res/drawable/btn_done.xml" value="0.2085" />
+<<<<<<< HEAD
         <entry key="src/main/res/drawable/edit_profile.xml" value="0.2085" />
+=======
+>>>>>>> minseo
         <entry key="src/main/res/drawable/rv_bag.xml" value="0.2085" />
         <entry key="src/main/res/layout/activity_profile.xml" value="0.19610507246376813" />
         <entry key="src/main/res/layout/activity_write.xml" value="0.22704315185546875" />
