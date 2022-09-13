@@ -30,16 +30,15 @@ class CommentFragment : Fragment() {
             val intent = Intent(requireContext(), WriteActivity::class.java)
             startActivity(intent)
         }
-<<<<<<< HEAD
+
 //        var adapter = ContentsAdapter()
 //        binding.rvComment.adapter = adapter
-=======
-        var adapter = ContentsAdapter()
-        binding.rvComment.adapter = adapter
->>>>>>> minseo
 
-        var adapter = ContentsAdapter()
-        binding.rvComment.adapter = adapter
+//        var adapter = ContentsAdapter()
+//        binding.rvComment.adapter = adapter
+//
+//        var adapter = ContentsAdapter()
+//        binding.rvComment.adapter = adapter
 
 
 
