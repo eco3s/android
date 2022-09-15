@@ -1,8 +1,11 @@
-package com.example.eco3s
+package com.example.eco3s.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.eco3s.R
 import com.example.eco3s.databinding.ActivityMainBinding
+import com.example.eco3s.view.AnimalFragment
+import com.example.eco3s.view.CommentFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
