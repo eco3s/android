@@ -1,5 +1,6 @@
 package com.example.eco3s.data
 
+import com.example.eco3s.SignupService
 import okhttp3.JavaNetCookieJar
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -8,6 +9,7 @@ import java.net.CookieManager
 
 object ApiClient {
     private var instance : Retrofit?= null
+    private val BASE_URL = ""
 
     val okHttpClient = OkHttpClient.Builder()
         .cookieJar(JavaNetCookieJar(CookieManager()))
@@ -16,7 +18,7 @@ object ApiClient {
     fun getInstance() : Retrofit{
         if (instance == null){
             instance = Retrofit.Builder()
-                .baseUrl("")
+                .baseUrl(BASE_URL)
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
@@ -24,5 +26,7 @@ object ApiClient {
 
         return instance!!
     }
+
+    val signService = instance?.create(SignupService::class.java)
 
 }
