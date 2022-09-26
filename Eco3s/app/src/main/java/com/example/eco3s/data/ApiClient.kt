@@ -1,6 +1,6 @@
 package com.example.eco3s.data
 
-import com.example.eco3s.SignupService
+import com.example.eco3s.data.sign.SignupService
 import okhttp3.JavaNetCookieJar
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

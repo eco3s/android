@@ -1,5 +1,6 @@
-package com.example.eco3s
+package com.example.eco3s.data.sign
 
+import com.example.eco3s.data.sign.ResultResponse
 import com.google.gson.annotations.SerializedName
 
 data class SignupResponseBody(

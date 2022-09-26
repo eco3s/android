@@ -1,4 +1,4 @@
-package com.example.eco3s
+package com.example.eco3s.data.sign
 
 import com.google.gson.annotations.SerializedName
 

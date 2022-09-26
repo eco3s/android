@@ -1,4 +1,4 @@
-package com.example.eco3s
+package com.example.eco3s.data.sign
 
 data class UserResponse(
     val id: String?,
